@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>DAVEN</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/805b25550a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#TechnicalSkills">Technical Skills</a></li>
+                    <li><a href="#AreaInterest">Areas Of Interest</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>CyberSecurity Enthusiast</p>
+                <h1><span>Daven Phiri</span><br/>Certified Ethical Hacker & Backend Developer</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Untitled design.png"/>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a dedicated computer science student with a specialization in cybersecurity, BlockChain and Python programming, and I am actively pursuing a career in these evolving fields.
+                    My strong commitment to problem-solving and innovation motivates me to explore entrepreneurship, where I intend to combine my technical expertise with strategic business acumen to develop impactful solutions.
+                    Additionally, I seek to invest in and cultivate our own technology and business ventures that can contribute meaningfully to the industry.
+                    I am committed to continuous learning and professional growth and am eager to connect with industry professionals.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                       
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Ethical Hacker</span><br/>Simulating cyberattacks to identify vulnerabilities.</li>
+                            <li><span>Backend Developer</span><br/>Creating server-side web applications.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Present</span><br/>BSc Honors in Computer Science at MSU Gweru.</li>
+                            <li><span>2022 - 2023</span><br/>A'Level at BlueWaters Academy</li>
+                            <li><span>2018 - 2022</span><br/>O'Level At Chinhoyi High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Technical Skills Section -->
+    <div id="TechnicalSkills">
+        <div class="container">
+            <h1 class="sub-title">Technical Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <h2>PYTHON, JAVASCRIPT, PHP</h2>
+                </div>
+                <div>
+                    <h2>HTML, CSS, </h2>
+                </div>
+                <div>
+                    <h2>KALI LINUX, NMAP, SQLmap</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Areas of Interest Section -->
+    <div id="Universe>
+        <div class="container">
+            <h1 class="sub-title">Universe</h1>
+            <div class="interest-list">
+                
+                <div>
+                    <h2>CyberSecurity</h2>
+                    <p>Cybersecurity protects computers, networks, and data...</p>
+                </div>
+                <div>
+                    <h2>Backend Development</h2>
+                    <p>Backend development handles server-side logic...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/authshiel.webp">
+                    <div class="layer">
+                        <h3>AuthShield — Identity &amp; Access Service</h3>
+                        <p>Centralized authentication microservice with JWT sessions, role-based access control, and audit logging to secure APIs and services.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/packet vision.jpeg">
+                    <div class="layer">
+                        <h3>PacketVision — Network Traffic Analyzer</h3>
+                        <p>Real-time packet capture and visualization tool for detecting anomalies and suspicious network activity using PCAP analysis.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/greensupply.jpg">
+                    <div class="layer">
+                        <h3>GreenSupply — Decentralized Supply Chain</h3>
+                        <p>Blockchain-based provenance tracking for supply chains, enabling immutable product histories and transparent audits.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/buzz.jpeg">
+                    <div class="layer">
+                        <h3>EverydayBuzz Backend</h3>
+                        <p>Scalable backend for a podcast platform with REST APIs, media uploads, and background processing for episode scheduling.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>davenphiri15@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+263785544904</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Dee Phiri"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/davenphiri"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/dee_15p_"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Daven Phiri.</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Tab switching logic
+        function opentab(tabname) {
+            const tablinks = document.getElementsByClassName("tab-links");
+            const tabcontents = document.getElementsByClassName("tab-contents");
+            
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        // Mobile menu toggle
+        const sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+            document.body.style.overflow = "hidden";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-250px";
+            document.body.style.overflow = "auto";
+        }
+
+        // Form submission
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx_YgV4wVahrhRIM-f__zBHdnVGTrLWpcRTFDlHOhxF2okJ-o6aci_cvUmSNfP52Lt-/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert('Message sent!'))
+                .catch(error => console.error('Error!', error.message));
+        });
+    </script>
+</body>
+</html>
